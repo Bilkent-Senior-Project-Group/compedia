@@ -25,11 +25,11 @@ At Compedia, we believe that every company should have the opportunity to showca
 ---
 
 ## Team
-- **Yaşar Tatlıcıoğlu:** [GitHub] (https://github.com/yasartt)   
-- **Ece Beyhan:** [GitHub] (https://github.com/ecebeyhan) 
-- **Anıl Altuncu:** [GitHub] (https://github.com/rupymeister) 
-- **Serhat Yılmaz:** [GitHub] (https://github.com/SSerhatS)
-- **Bartu Albayrak:** [GitHub] (https://github.com/BartuAlb)
+- **Yaşar Tatlıcıoğlu:** [GitHub](https://github.com/yasartt)   
+- **Ece Beyhan:** [GitHub](https://github.com/ecebeyhan) 
+- **Anıl Altuncu:** [GitHub](https://github.com/rupymeister) 
+- **Serhat Yılmaz:** [GitHub](https://github.com/SSerhatS)
+- **Bartu Albayrak:** [GitHub](https://github.com/BartuAlb)
 
 ---
 
