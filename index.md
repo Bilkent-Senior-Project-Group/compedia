@@ -34,7 +34,7 @@ At Compedia, we believe that every company should have the opportunity to showca
 ---
 
 ## Deliverables
-
+- [Project Specification Report](/assets/docs/T2404_Project_Specification_Document.pdf)
 
 --- 
 
