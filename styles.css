@@ -32,9 +32,9 @@ body {
     z-index: 1000;
 }
 
-/* Navigation Brand Styles - Reduced font size */
+/* Navigation Brand Styles */
 .nav-brand a {
-    font-size: 1.3rem; /* Reduced from 1.5rem */
+    font-size: 1.3rem;
     font-weight: bold;
     color: var(--primary-color);
     text-decoration: none;
@@ -42,18 +42,33 @@ body {
     align-items: center;
 }
 
-/* Logo Image Styling - Standardized size across all pages */
+/* Logo Image Styling */
 .logo-image {
     height: 32px;
     width: auto;
     margin-right: 8px;
 }
 
-/* Text Logo Styling - Standardized size across all pages */
+/* Text Logo Styling */
 .logo-text {
     height: 32px;
     width: auto;
     margin-top: 2px;
+}
+
+/* Mobile menu button */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
 }
 
 .nav-links a {
@@ -315,10 +330,47 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
+    .navbar {
+        padding: 0.75rem 1.5rem;
+        flex-wrap: wrap;
     }
     
+    .nav-brand a {
+        font-size: 1.1rem;
+    }
+    
+    .logo-image {
+        height: 24px;
+    }
+    
+    .logo-text {
+        height: 24px;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+        background-color: var(--background-color);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links a {
+        margin: 0.5rem 0;
+        padding: 0.5rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
     .hero-content h1, .features-hero h1, .about-hero h1 {
         font-size: 2rem;
     }
@@ -350,6 +402,21 @@ footer {
     
     .logo-text {
         height: 14px;
+    }
+}
+
+/* For smaller mobile devices */
+@media (max-width: 375px) {
+    .logo-image {
+        height: 20px;
+    }
+    
+    .logo-text {
+        height: 20px;
+    }
+    
+    .navbar {
+        padding: 0.5rem 1rem;
     }
 }
 
